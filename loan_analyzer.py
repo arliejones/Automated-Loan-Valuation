@@ -120,17 +120,16 @@ new_loan = {
     
 # present_value = pv(1000, 12, 0.2)
 
-def pv(future_value, remaining_months, annual_discount_rate):
+def calculate_present_value(future_value, remaining_months, annual_discount_rate):
     present_value = future_value / (1 + annual_discount_rate/12) ** remaining_months
     return present_value
 
-present_value_of_new_loan = pv(new_loan["future_value"], new_loan["remaining_months"], 0.2)
+present_value_of_new_loan = calculate_present_value(new_loan["future_value"], new_loan["remaining_months"], 0.2)
 
 # @TODO: Use the function to calculate the present value of the new loan given below.
 #    Use an `annual_discount_rate` of 0.2 for this new loan calculation.
 
-
-print(f"The present value of the loan is: {present_value_of_new_loan}")
+print(f"The present value of the new loan is: {present_value_of_new_loan}")
 
 
 print("---------------------------------------------")
