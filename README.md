@@ -30,3 +30,8 @@ To use this project, you may pull the code from this public repository and run t
 
 ### Wrap Up
 As my first Python program, I used this project to get familiar with constructing Python code. Specifically, I wanted to practice using functions to perform financial calculations. This code can be translated to answer various problems for organizing and analyzing data. During this project, I learned the importance of DRY code, pseudocode and commenting, and organization. I am excited to use this code as a base to translate to other personal projects or professional problem-solving.
+
+### Contributors
+Arlie Jones
+arliejones98@gmail.com
+Linkedin: https://www.linkedin.com/in/arlie-jones-020092159/
